@@ -3,7 +3,6 @@ import ReactJkMusicPlayer from "react-jinke-music-player";
 import "react-jinke-music-player/assets/index.css";
 import Webcam from "react-webcam";
 import axios from "axios";
-import Logo from "./assets/transparent_white.png";
 import { BrowserRouter, NavLink, Route } from "react-router-dom";
 import UserCard from "./UserCard";
 import SignupForm from "./SignupForm";
