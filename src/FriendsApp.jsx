@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useRef, useState } from "react";
 import { BASE_URL } from "./App";
 
-function FriendsApp({ UserCard, getAllUsers }) {
+function FriendsApp({ UserCard, getUsers }) {
   const [followers, setFollwers] = useState([]);
   const [allUserArr, setAllUserArr] = useState([]);
 
