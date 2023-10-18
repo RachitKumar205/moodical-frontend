@@ -11,7 +11,7 @@ import MainApp from './MainApp';
 import FriendsApp from './FriendsApp';
 import NavBar from './NavBar';
 
-export const BASE_URL = 'https://moodicalapi.azurewebsites.net';
+export const BASE_URL = 'http://localhost:8000';
 
 function App() {
 	// states
